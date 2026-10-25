@@ -8,13 +8,11 @@
 
 VOICEVOX Engineとローカル音声認識モデルは、必要なものをPorotto内からダウンロードできます。
 
-### Windowsの警告について
+### Windowsへのインストール時の警告について
 
-現在のPorottoには、発行元を証明するWindows用のコード署名を付けていません。そのため、起動時に「WindowsによってPCが保護されました」（Microsoft Defender SmartScreen）や「不明な発行元」と表示される場合があります。SmartScreenは署名やダウンロード実績などで判定するため、この表示だけでウイルスが検出されたという意味ではありません。[Microsoftの説明](https://learn.microsoft.com/ja-jp/windows/apps/package-and-deploy/smartscreen-reputation)
+Porottoには、発行元を証明するWindows用のコード署名を付けていません。そのため、起動時に「WindowsによってPCが保護されました」（Microsoft Defender SmartScreen）または「不明な発行元」と表示される場合があります。
 
-このリポジトリの[最新リリース](https://github.com/simawo/porotto-releases/releases/latest)からダウンロードしたインストーラーであることを確認し、実行する場合はSmartScreenの「詳細情報」→「実行」を選んでください。
-
-ウイルス対策ソフトが脅威を検出した場合は別途確認が必要です。保護機能を無効にせず、[Issues](https://github.com/simawo/porotto-releases/issues)へ警告の内容をお知らせください。
+当リポジトリの[最新リリース](https://github.com/simawo/porotto-releases/releases/latest)からダウンロードしたインストーラーであることを確認し、インストールを実行する場合はSmartScreenの「詳細情報」→「実行」を選択してください。
 
 ## 配信画面への表示
 
